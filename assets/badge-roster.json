@@ -1,0 +1,72 @@
+[
+    {
+        "title": "IST 256",
+        "name": "BTO PRO",
+        "position": "Haxer",
+        "organization": "HaxTheWeb",
+        "image": "https://cdn.discordapp.com/attachments/898236833853481032/1088241666730754108/unnamed.gif",
+        "tvcolor": "blue",
+        "backgroundcolor": "orange",
+        "textcolor": "green",
+        "knobcolor": "purple",
+        "logo": "https://img.itch.zone/aW1hZ2UvNjUxMS8zMzA5Ni5wbmc=/original/2RYWer.png",
+        "filter": "",
+        "filternum": ""
+    },
+    {
+        "title": "BEAST",
+        "name": "Drew Doughty",
+        "position": "Defense",
+        "organization": "LA Kings",
+        "image": "https://th.bing.com/th/id/R.363326137c8123d15d3654884bdb15d6?rik=Tt7hT4ERJ2NP%2bA&riu=http%3a%2f%2fwww4.pictures.zimbio.com%2fgi%2f2018%2bNHL%2bAll%2bStar%2bPortraits%2bhNLtBZIHwWIx.jpg&ehk=t%2fkYgy6g52PqaP25Fu2HDK366LjF1yZgbC6VF%2b2no8o%3d&risl=&pid=ImgRaw&r=0",
+        "tvcolor": "purple",
+        "backgroundcolor": "yellow",
+        "textcolor": "black",
+        "knobcolor": "white",
+        "logo": "https://cdn.freebiesupply.com/logos/large/2x/los-angeles-kings-1-logo-png-transparent.png",
+        "filter": "grayscale",
+        "filternum": "1"
+    },
+    {
+        "title": "Wanted",
+        "name": "Bryce Schneider",
+        "position": "Memer",
+        "organization": "Penn State",
+        "image": "https://cdn.discordapp.com/attachments/1062806966021402684/1063159309422305340/IMG_9420.png",
+        "tvcolor": "red",
+        "backgroundcolor": "green",
+        "textcolor": "yellow",
+        "knobcolor": "blue",
+        "logo": "https://th.bing.com/th/id/R.001e1a82cea9f3851d38101a97d70e13?rik=vlYSrzzk7gepGg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f11%2fpenn-state-logo.png&ehk=c%2b%2be6si4JPtuR0XtVWiPYqd9Wyh57ahhpEMBudNHX%2bg%3d&risl=&pid=ImgRaw&r=0",
+        "filter": "sepia",
+        "filternum": "1"
+    },
+    {
+        "title": "Meow",
+        "name": "Carter Verhaeghe",
+        "position": "Owner of the Boston Bruins",
+        "organization": "Florida Panthers",
+        "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3042088.png",
+        "tvcolor": "#041E42",
+        "backgroundcolor": "#B9975B",
+        "textcolor": "#041E42",
+        "knobcolor": "#C8102E",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Florida_Panthers_2016_logo.svg/1200px-Florida_Panthers_2016_logo.svg.png",
+        "filter": "",
+        "filternum": ""
+    },
+    {
+        "title": "Meow",
+        "name": "Captain Planet",
+        "position": "Earth, Fire, Wind, Water, and Heart",
+        "organization": "Universe",
+        "image": "https://static2.gamerantimages.com/wordpress/wp-content/uploads/2020/11/Captain-Planet.jpg",
+        "tvcolor": "#041E42",
+        "backgroundcolor": "Green",
+        "textcolor": "Red",
+        "knobcolor": "Blue",
+        "logo": "https://www.pngrepo.com/download/206015/worldwide-internet.png",
+        "filter": "",
+        "filternum": ""
+    }
+]
