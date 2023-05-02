@@ -21,7 +21,7 @@ export class Badges extends LitElement{
             width: 400px;
         }
         .item {
-            display: inline-flex
+            display: inline-block
         }
         
         `;

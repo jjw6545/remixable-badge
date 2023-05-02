@@ -38,16 +38,6 @@ class RemixableBadge extends LitElement {
     .wrapper {
       display: block;
     }
-
-
-    .app-footer {
-      font-size: calc(12px + 0.5vmin);
-      align-items: center;
-    }
-
-    .app-footer a {
-      margin-left: 5px;
-    }
     .logo{
         width: 200px;
         height: 200px;
@@ -156,10 +146,8 @@ class RemixableBadge extends LitElement {
                       <image  class = 'logo' href=${this.logo} height="200" width="200" 
                       x= "750" y= "1100"/>
                     </g>
-                  </g>
-                  
-                </g>
-                
+                  </g>  
+                </g>     
             </g>
         </svg>
     </div>
