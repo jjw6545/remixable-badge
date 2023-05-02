@@ -10,8 +10,8 @@
         "textcolor": "green",
         "knobcolor": "purple",
         "logo": "https://img.itch.zone/aW1hZ2UvNjUxMS8zMzA5Ni5wbmc=/original/2RYWer.png",
-        "filter": "",
-        "filternum": ""
+        "sepia": false,
+        "blackwhite": false
     },
     {
         "title": "BEAST",
@@ -24,8 +24,8 @@
         "textcolor": "black",
         "knobcolor": "white",
         "logo": "https://cdn.freebiesupply.com/logos/large/2x/los-angeles-kings-1-logo-png-transparent.png",
-        "filter": "grayscale",
-        "filternum": "1"
+        "sepia": false,
+        "blackwhite": true
     },
     {
         "title": "Wanted",
@@ -38,8 +38,8 @@
         "textcolor": "yellow",
         "knobcolor": "blue",
         "logo": "https://th.bing.com/th/id/R.001e1a82cea9f3851d38101a97d70e13?rik=vlYSrzzk7gepGg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f11%2fpenn-state-logo.png&ehk=c%2b%2be6si4JPtuR0XtVWiPYqd9Wyh57ahhpEMBudNHX%2bg%3d&risl=&pid=ImgRaw&r=0",
-        "filter": "sepia",
-        "filternum": "1"
+        "sepia": true,
+        "blackwhite": false
     },
     {
         "title": "Meow",
@@ -52,8 +52,8 @@
         "textcolor": "#041E42",
         "knobcolor": "#C8102E",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Florida_Panthers_2016_logo.svg/1200px-Florida_Panthers_2016_logo.svg.png",
-        "filter": "",
-        "filternum": ""
+        "sepia": false,
+        "blackwhite": false
     },
     {
         "title": "Heart",
@@ -66,7 +66,7 @@
         "textcolor": "Red",
         "knobcolor": "Blue",
         "logo": "https://www.pngrepo.com/download/206015/worldwide-internet.png",
-        "filter": "",
-        "filternum": ""
+        "sepia": false,
+        "blackwhite": false
     }
 ]

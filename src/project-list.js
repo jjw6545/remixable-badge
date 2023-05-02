@@ -51,7 +51,7 @@ export class Badges extends LitElement{
         <div class="wrapper">
             ${this.badges.map(badge => html`
             <div class="item">
-                <remixable-badge title="${badge.title}", name="${badge.name}", position="${badge.position}", organization="${badge.organization}", image="${badge.image}", tvcolor="${badge.tvcolor}", backgroundcolor="${badge.backgroundcolor}", textcolor="${badge.textcolor}", knobcolor="${badge.knobcolor}", logo="${badge.logo}", filter="${badge.filter}", filternum="${badge.filternum}"></remixable-badge>
+                <remixable-badge title="${badge.title}", name="${badge.name}", position="${badge.position}", organization="${badge.organization}", image="${badge.image}", tvcolor="${badge.tvcolor}", backgroundcolor="${badge.backgroundcolor}", textcolor="${badge.textcolor}", knobcolor="${badge.knobcolor}", logo="${badge.logo}", ?sepia="${badge.sepia}" ?blackwhite="${badge.blackwhite}"></remixable-badge>
             </div>
             `)}
         </div>

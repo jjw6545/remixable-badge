@@ -13,23 +13,30 @@ class RemixableBadge extends LitElement {
     backgroundcolor: {type: String},
     knobcolor: {type: String},
     textcolor: {type: String},
-    filter: {type: String},
-    filternum: {type: String},
+    sepia: { 
+      type: Boolean,
+      reflect: true,
+    },
+    blackwhite: { 
+      type: Boolean,
+      reflect: true,
+    }
   }
 
   static styles = css`
     :host {
-      min-height: 100px;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+    :host([sepia]){
+      filter: sepia(1);
+    }
+    :host([blackwhite]){
+      filter: grayscale(1);
+    }
     .wrapper {
       display: block;
-    }
-
-    main {
-      flex-grow: 1;
     }
 
 
@@ -53,7 +60,7 @@ class RemixableBadge extends LitElement {
 
   constructor() {
     super();
-    this.title = 'Hello ';
+    this.title = 'Media ';
     this.name = 'Bryce';
     this.position = 'Haxer';
     this.organization = 'Penn State';
@@ -63,8 +70,8 @@ class RemixableBadge extends LitElement {
     this.textcolor = '#000000';
     this.knobcolor = '#cbcaca';
     this.logo = 'https://3.bp.blogspot.com/-a9MvhamtIms/Vy9si0mQvDI/AAAAAAAAACM/R1pncTyeFJ08W9039NXlVR3FQ-Bt84PJwCLcB/s320/INDEX.png';
-    this.filter = ''
-    this.filternum = ''
+    this.sepia = false;
+    this.blackwhite = false;
   }
  
   
@@ -72,7 +79,7 @@ class RemixableBadge extends LitElement {
     return svg`
       <div class="wrapper">
       
-      <div class="container" style="filter: ${this.filter}(${this.filternum});">
+      <div class="container">
       
       <svg width="500" height="500" id="remix-this" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 1500" data-v-b2c8125e="" data-v-a09c7bce=""><defs data-v-b2c8125e="" data-v-a09c7bce=""><style data-v-b2c8125e="" data-v-a09c7bce=""></style> 
             <filter id="dropshadow" x="0" y="0" width="200%" height="200%" data-v-b2c8125e="" data-v-a09c7bce="">
